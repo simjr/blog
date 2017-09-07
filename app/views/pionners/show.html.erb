@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @pionner.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @pionner.last_name %>
+</p>
+
+<%= link_to 'Edit', edit_pionner_path(@pionner) %> |
+<%= link_to 'Back', pionners_path %>
